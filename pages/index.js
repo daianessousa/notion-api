@@ -25,7 +25,7 @@ export default function Home({ books }) {
           {books.map((book) => (
             <a
               key={book.id}
-              href="https://nextjs.org/docs"
+              href="https://github.com/daianessousa"
               className={styles.card}
             >
               <h2>{book.properties.Name.title[0].plain_text}</h2>
